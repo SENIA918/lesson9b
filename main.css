@@ -1,12 +1,12 @@
-img {
-  height: 400px;
-  width: 400px;
-  text-align: center;
+rect:hover {
+  fill:blue;
+  stroke: red;
+  width: 300px;
+  height: 300px;
+  transition: 1s;
 }
- div img:hover {
-  height: 500px;
-  width: 500px;
-  transition: 2s;
-  background: rgb(22, 10, 32);
-  border: 5px solid rgb(100, 50, 50);
+ellipse:hover {
+  fill: rgb(224, 235, 70);
+  stroke: rgb(101, 240, 9);
+  transition: 1s;
 }
